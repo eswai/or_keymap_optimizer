@@ -114,7 +114,7 @@ if len(sys.argv) < 2:
 
 input_file = sys.argv[1]
 
-with open(input_file_, 'r', encoding='utf-8') as file:
+with open(input_file, 'r', encoding='utf-8') as file:
     input_text_ = file.read()
 
 result = optimize_keyboard_layout(penalty_2gram, letters_, input_text_.upper())
