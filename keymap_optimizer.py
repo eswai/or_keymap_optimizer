@@ -89,7 +89,7 @@ letters_ = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
 #            4, 2, 1, 1, 4, 4, 1, 1, 2, 4,
 #            5, 6, 6, 3, 4, 4, 3, 6, 6, 5]
 
-# penalty_2gram[i][j] = 2文字をi, jの順に打鍵するときのペナルティ
+# penalty_2gram[i][j] = 2文字をi, jの順に打鍵するときのペナルティ(正規化しました)
 # 大岡俊彦氏の研究に基づく http://oookaworks.seesaa.net/article/490739021.html
 penalty_2gram = [
     #  Q      W      E      R      T      Y      U      I      O      P      A      S      D      F      G      H      J      K      L      ;      Z      X      C      V      B      N      M      ,      .      /
